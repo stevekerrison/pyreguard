@@ -19,6 +19,28 @@ replicating the WireGuard interface from `pyroute2` and translating it to/from
 the userspace messaging protocol. It also allows dual-space usage, where
 both userspace and kernelspace interfaces might exist.
 
+#### Installation
+
+To install, use pip:
+
+```bash
+pip install .
+```
+
+#### Usage
+
+Use it just like `pyroute2`'s wireguard, except instead of:
+
+```python
+from pyroute2 import WireGuard
+```
+
+do
+
+```python
+from pyreguard import WireGuard
+```
+
 #### License
 
 As this work is inteded to work with `pyroute2`, this software has been
